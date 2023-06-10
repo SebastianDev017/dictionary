@@ -62,7 +62,7 @@ option{
   height: auto;
   max-width: 100%;
   border-radius: 10px;
-  margin: 40px 0px 60px 0px;
+  padding: 50px 0px;
 }
 .container form{
   margin-top: 1.5rem;
@@ -256,6 +256,7 @@ ul li h3{
 .synonyms li{
   color: #ba70ff;
   text-decoration: underline;
+  cursor: pointer;
 }
 @media screen and (max-width:700px){
   .container{
@@ -274,4 +275,36 @@ ul li h3{
     font-size: 28px;
     color: #000000;
    }
+}
+.black{
+  background-color: #202020;
+  .moon i,i{
+    color: white;
+  }
+
+  .search_icon i{
+    color: #ba70ff;
+  }
+  .word, .details{
+    color: #fff;
+  }
+  .noun_hr{
+    color: #ccc;
+  }
+  .details h3{
+    color: #fff;
+  }
+}
+.light{
+  background-color: white;
+  .moon i, i{
+    color: black;
+  }
+  .search_icon i{
+    color: #ba70ff;
+  }
+  .word, .details{
+    color: black;
+  }
+
 }
